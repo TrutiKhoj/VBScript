@@ -44,7 +44,7 @@
 	<Actions Context="Author">
 		<Exec>
 			<Command>wscript.exe</Command>
-			<Arguments>"D:\BatteryStatusCheck.vbs"</Arguments>
+			<Arguments>"C:\BatteryStatusCheck.vbs"</Arguments>
 		</Exec>
 	</Actions>
 </Task>
