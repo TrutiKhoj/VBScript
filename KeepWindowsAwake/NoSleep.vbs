@@ -1,7 +1,7 @@
 Dim objShell, lngMinutes, boolValid
 
 Set objShell = CreateObject("WScript.Shell")
-lngMinutes = InputBox("How long you want to keep your system awake?" & Replace(Space(5), " ", vbNewLine) & "Enter minutes:", "Awake Duration") 'we are replacing 5 spaces with new lines
+lngMinutes = eval(InputBox("How long you want to keep your system awake?" & Replace(Space(5), " ", vbNewLine) & "Enter minutes:", "Awake Duration")) 'we are replacing 5 spaces with new lines
 If lngMinutes = vbEmpty Then 'If the user opts to cancel the process
 	'Do nothing
 Else
